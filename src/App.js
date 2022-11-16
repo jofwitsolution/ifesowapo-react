@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+
+import "./App.scss";
+import { Navbar, Sidebar } from "./components";
+import { Home, About } from "./pages";
 
 function App() {
+  const [toggleSidebar, setToggleSidebar] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="jof__app">
+      <Navbar setToggleSidebar={setToggleSidebar} />
+      <Sidebar
+        toggleSidebar={toggleSidebar}
+        setToggleSidebar={setToggleSidebar}
+      />
+
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
     </div>
   );
 }

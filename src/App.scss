@@ -1,0 +1,52 @@
+$primary-color: #8ba17f;
+$secondary-color: #18332f;
+$black-color: #000;
+$white-color: #fff;
+
+.jof-header-1-primary {
+    font-size: 4rem;
+    color: $primary-color;
+    font-weight: 900;
+    line-height: 4.5rem;
+
+    @media only screen and (max-width: 1200px) { //lg
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    @media only screen and (max-width: 768px) { //md
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+
+.jof-header-1-white {
+    font-size: 4rem;
+    color: $white-color;
+    font-weight: 900;
+    line-height: 4.5rem;
+
+    @media only screen and (max-width: 1200px) { //lg
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    @media only screen and (max-width: 768px) { //md
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+
+.jof-header-2-white {
+    font-size: 3rem;
+    color: $white-color;
+    font-weight: 900;
+    line-height: 3.5rem;
+
+    @media only screen and (max-width: 1200px) { //lg
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    @media only screen and (max-width: 768px) { //md
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}
