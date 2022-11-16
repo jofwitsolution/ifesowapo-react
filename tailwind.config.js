@@ -43,6 +43,7 @@ module.exports = {
         lightGray: "#F1EFEE",
         primary: "#8ba17f",
         secondary: "#18332f",
+        lightBlack: "rgba(0, 0, 0, .7)",
       },
       backgroundColor: {
         primary: "#8ba17f",
@@ -51,7 +52,9 @@ module.exports = {
       },
       backgroundImage: {
         "hero-home":
-          "linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .8), rgba(0, 0, 0, .4)), url('/src/assets/images/hero.jpg')",
+          "linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url('/src/assets/images/hero.jpg')",
+        "home-sect-5":
+          "linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url('/src/assets/images/pic-15.jpg')",
       },
       borderColor: {
         primary: "#8ba17f",

@@ -9,7 +9,7 @@ const nonActiveLink = "";
 
 const Navbar = ({ setToggleSidebar }) => {
   return (
-    <div className="text-secondary bg-white flex fixed right-0 top-0 left-0 justify-between items-center px-5 md:px-10 shadow-md">
+    <div className="text-secondary bg-white flex fixed z-[1000] right-0 top-0 left-0 justify-between items-center px-5 md:px-10 shadow-md">
       <div className="w-[80px]">
         <img className="w-[100%]" src={logo} alt="logo" />
       </div>

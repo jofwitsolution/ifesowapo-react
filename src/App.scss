@@ -3,6 +3,26 @@ $secondary-color: #18332f;
 $black-color: #000;
 $white-color: #fff;
 
+.jof-special-header {
+    font-size: 4rem;
+    color: rgba(0, 100, 0, 1);
+    font-weight: 800;
+    line-height: 3.8rem;
+
+    @media only screen and (max-width: 1200px) { //lg
+        font-size: 3rem;
+        line-height: 2.8rem;
+    }
+    @media only screen and (max-width: 768px) { //md
+        font-size: 2rem;
+        line-height: 1.8rem;
+    }
+    @media only screen and (max-width: 250px) { //xs
+        font-size: 1.3rem;
+        line-height: 1.2rem;
+    }
+}
+
 .jof-header-1-primary {
     font-size: 4rem;
     color: $primary-color;
@@ -14,8 +34,56 @@ $white-color: #fff;
         line-height: 3.5rem;
     }
     @media only screen and (max-width: 768px) { //md
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    @media only screen and (max-width: 250px) { //xs
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+}
+
+.jof-header-2-primary {
+    font-size: 3rem;
+    color: $primary-color;
+    font-weight: 900;
+    line-height: 3.5rem;
+
+    @media only screen and (max-width: 1200px) { //lg
         font-size: 2.5rem;
         line-height: 3rem;
+    }
+    @media only screen and (max-width: 768px) { //md
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    @media only screen and (max-width: 400px) { //sm
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    @media only screen and (max-width: 250px) { //xs
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+}
+
+.jof-header-3-primary {
+    font-size: 2.5rem;
+    color: $primary-color;
+    font-weight: 900;
+    line-height: 3rem;
+
+    @media only screen and (max-width: 768px) { //md
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    @media only screen and (max-width: 400px) { //sm
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    @media only screen and (max-width: 250px) { //xs
+        font-size: 1.3rem;
+        line-height: 1.6rem;
     }
 }
 
@@ -33,6 +101,10 @@ $white-color: #fff;
         font-size: 2.5rem;
         line-height: 3rem;
     }
+    @media only screen and (max-width: 768px) { //md
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
 }
 
 .jof-header-2-white {
@@ -48,5 +120,13 @@ $white-color: #fff;
     @media only screen and (max-width: 768px) { //md
         font-size: 2rem;
         line-height: 2.5rem;
+    }
+    @media only screen and (max-width: 400px) { //sm
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    @media only screen and (max-width: 250px) { //xs
+        font-size: 1.3rem;
+        line-height: 1.6rem;
     }
 }
