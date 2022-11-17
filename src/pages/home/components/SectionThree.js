@@ -6,6 +6,8 @@ import pic10 from "../../../assets/images/pic-10.jpeg";
 const SectionThree = () => {
   return (
     <section className="md:px-[8%]">
+      <div className="w-[100%] border-b-2 border-white"></div>
+      <div className="w-[90%] md:w-[50%] border-b-[6px] border-primary mx-auto md:mx-0"></div>
       <div className="flex px-4 py-[8%] flex-col md:flex-row gap-5 justify-center items-center">
         <motion.div
           whileInView={{

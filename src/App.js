@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 
 import "./App.scss";
-import { Navbar, Sidebar } from "./components";
+import { Footer, Navbar, Sidebar } from "./components";
 import { Home, About } from "./pages";
 
 function App() {
@@ -21,6 +21,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Home />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 }

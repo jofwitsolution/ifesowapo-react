@@ -18,7 +18,7 @@ const Sidebar = ({ toggleSidebar, setToggleSidebar }) => {
   return (
     <>
       {toggleSidebar && (
-        <div className="text-secondary md:hidden fixed z-[2000] top-0 w-4/5 bg-white h-screen overflow-y-auto shadow-md z-10 animate-slide-in">
+        <div className="text-secondary md:hidden fixed z-[2000] top-0 w-4/5 bg-white h-screen overflow-y-auto shadow-md animate-slide-in">
           <div className="absolute w-full flex justify-between items-center p-2">
             <div className="text-primary text-2xl font-semibold font-mono">
               IFESOWAPO

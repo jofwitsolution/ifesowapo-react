@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const SectionFive = () => {
   return (
-    <section className="h-[60vh] md:h-screen bg-home-sect-5 bg-scroll bg-center bg-no-repeat bg-cover flex flex-col justify-center items-center">
+    <section className="h-[60vh] md:h-screen bg-home-sect-5 bg-fixed bg-center bg-no-repeat bg-cover flex flex-col justify-center items-center">
       <div className="md:w-3/6 ml-4 md:ml-0">
         <motion.h2
           whileInView={{

@@ -33,7 +33,7 @@ const SectionTwo = () => {
         </div>
         <motion.div
           whileInView={{ opacity: [0, 1], scale: [0.3, 1] }}
-          transition={{ delay: 2, duration: 1, type: "tween" }}
+          transition={{ delay: 1, duration: 1, type: "tween" }}
           whileHover={{ scale: 1.1 }}
           className="mt-20 md:mt-0"
         >

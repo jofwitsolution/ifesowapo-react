@@ -34,6 +34,9 @@ const SectionFour = () => {
           </p>
         </motion.div>
       </div>
+      <div className="w-max py-3 px-6 bg-primary text-white font-extrabold rounded-lg mx-auto mb-10 cursor-pointer hover:opacity-90 hover:scale-105 hover:shadow-md">
+        <a href="/development">Development</a>
+      </div>
     </section>
   );
 };
