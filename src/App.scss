@@ -87,6 +87,21 @@ $white-color: #fff;
     }
 }
 
+.jof-header-4-primary {
+    font-size: 1.6rem;
+    color: $primary-color;
+    line-height: 2rem;
+
+    @media only screen and (max-width: 400px) { //sm
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    @media only screen and (max-width: 250px) { //xs
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+}
+
 .jof-header-1-white {
     font-size: 4rem;
     color: $white-color;
