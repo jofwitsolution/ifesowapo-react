@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { CgMenuLeftAlt } from "react-icons/cg";
 
-import logo from "../assets/images/logo.jpeg";
+import logo from "../assets/images/logo.png";
 
 const activeLink = "font-semibold";
 const nonActiveLink = "";

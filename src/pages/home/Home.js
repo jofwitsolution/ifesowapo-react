@@ -1,5 +1,6 @@
 import React from "react";
 
+import { Meta } from "../../components";
 import "./Home.scss";
 import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo";
@@ -12,6 +13,7 @@ import SectionSix from "./components/SectionSix";
 const home = () => {
   return (
     <div className="mt-[4.5rem]">
+      <Meta />
       <SectionOne />
       <SectionTwo />
       <SectionThree />

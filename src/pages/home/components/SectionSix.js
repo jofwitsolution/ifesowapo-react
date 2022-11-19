@@ -63,7 +63,7 @@ const SectionSix = () => {
           <a href="/announcement" className="group">
             <img
               src={pic10}
-              alt="pic7"
+              alt="pic10"
               className="group-hover:rounded-lg hover:shadow-lg border-primary transition-all duration-300 ease-in-out"
             />
             <p className="text-[1.2rem] text-lightBlack mt-3 group-hover:text-secondary">
@@ -101,6 +101,9 @@ const SectionSix = () => {
             </p>
           </a>
         </motion.div>
+      </div>
+      <div className="border-b-4 border-primary w-max text-secondary mt-2 font-semibold hover:bg-primary hover:text-white px-4 py-1 cursor-pointer transition-all duration-1000 ease-in-out h-max">
+        <a href="/announcement"> read more...</a>
       </div>
     </section>
   );

@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 
 import "./App.scss";
 import { Footer, Navbar, Sidebar } from "./components";
-import { Home, About } from "./pages";
+import { Home, About, Development, Announcement } from "./pages";
 
 function App() {
   const [toggleSidebar, setToggleSidebar] = useState(false);
@@ -17,6 +17,8 @@ function App() {
       />
 
       <Routes>
+        <Route path="/announcement" element={<Announcement />} />
+        <Route path="/development" element={<Development />} />
         <Route path="/about" element={<About />} />
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Home />} />

@@ -2,15 +2,17 @@ import React from "react";
 import { Meta } from "../../components";
 import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo";
+import SectionThree from "./components/SectionThree";
 
-const about = () => {
+const Announcement = () => {
   return (
-    <div className="mt-[4.5rem]">
-      <Meta title={"About - Ifesowapo CICS"} />
+    <div className="mt-[4rem] bg-white">
+      <Meta title={"Announcement - Ifesowapo CICS"} />
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
     </div>
   );
 };
 
-export default about;
+export default Announcement;

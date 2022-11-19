@@ -37,9 +37,9 @@ const SectionOne = () => {
       >
         <h2 className="jof-header-4-primary mb-2">Our vision</h2>
         <p className="text-[1.2rem] md:text-[1.25rem]">
-          To make our country Nigeria a better place to live, to work and
-          produce raw materials and finished products for our local consumptions
-          and export purposes
+          To make Nigeria a better place to live, to work and produce raw
+          materials and finished products for local consumptions and exportation
+          purposes
         </p>
       </motion.div>
       <motion.div
